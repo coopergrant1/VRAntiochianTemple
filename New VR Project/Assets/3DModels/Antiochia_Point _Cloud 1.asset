@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c51af73a183cbf144a3ec6095eb7ce5c, type: 3}
+  m_Name: Antiochia_Point _Cloud 1
+  m_EditorClassIdentifier: 
+  <FilePath>k__BackingField: ..\..\..\Downloads\Antiochia_Point _Cloud.pts
+  m_Prefab: {fileID: 979107363424764910, guid: d016c564353b5234e8881b8dfa6a593e, type: 3}
+  m_Scene: {fileID: 0}
+  <ImportMode>k__BackingField: 0
+  <ImportAllFilesInFolder>k__BackingField: 0
+  <PreferAlternativeImporters>k__BackingField: 0
+  <Scale>k__BackingField: 0.001
+  <Orientation>k__BackingField: 0
+  <IsLeftHanded>k__BackingField: 0
+  <IsZUp>k__BackingField: 0
+  <AvoidNegativeScale>k__BackingField: 1
+  <PreserveHierarchy>k__BackingField: 1
+  <RuleSet>k__BackingField: {fileID: 11400000, guid: 90d0213c3bb8b1b4994d294df5308c76, type: 2}
+  <ImportMetadata>k__BackingField: 1
+  <Density>k__BackingField: 5
+  <Segmentation>k__BackingField: 20
+  <CreateLODs>k__BackingField: 0
+  <NumberOfLODs>k__BackingField: 2
