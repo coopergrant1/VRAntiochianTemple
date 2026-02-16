@@ -1,65 +1,67 @@
 using UnityEngine;
-using TMPro;  // If you're using TextMeshPro
+using TMPro;
+using System.Collections;
 
 public class ReconstructionToggle : MonoBehaviour
 {
-    public GameObject reconstructedVersion;  // The reconstructed version (starts off)
+    [Header("Temple Objects")]
+    public GameObject reconstructedVersion;   // Parent object with reconstructed meshes
+
     private bool showingReconstruction = false;
 
-    // UI Text element to show the current mode (use TextMeshPro or Unity Text)
-    public TextMeshProUGUI modeText;  // TextMeshPro Text component
-    // public UnityEngine.UI.Text modeText;  // If you are using Unity's default Text (uncomment this line instead)
+    [Header("UI")]
+    public TextMeshProUGUI modeText;          // TempleModeText from Canvas
+    public CanvasGroup modePanel;             // Optional: panel background for fade effect
 
     void Start()
     {
-        // Ensure the reconstructed version starts hidden
-        reconstructedVersion.SetActive(false);
+        if (reconstructedVersion != null)
+            reconstructedVersion.SetActive(false);
 
-        // Set initial UI text (Ruins Mode at start)
         UpdateUI(false);
     }
 
     void Update()
     {
-        // Toggle on "T" key press (or use a VR controller input here)
-        if (Input.GetKeyDown(KeyCode.T))  
+        // Toggle with T key (matches your BlockToggle key)
+        if (Input.GetKeyDown(KeyCode.T))
         {
             showingReconstruction = !showingReconstruction;
-            if (showingReconstruction)
-            {
-                ShowReconstruction();
-            }
-            else
-            {
-                HideReconstruction();
-            }
+
+            if (reconstructedVersion != null)
+                reconstructedVersion.SetActive(showingReconstruction);
+
+            UpdateUI(showingReconstruction);
+
+            if (modePanel != null)
+                StartCoroutine(FlashPanel());
         }
     }
 
-    // Shows the reconstructed version on top of the ruins
-    void ShowReconstruction()
-    {
-        reconstructedVersion.SetActive(true);
-        UpdateUI(true);  // Set text to "Reconstructed Mode"
-    }
-
-    // Hides the reconstructed version, leaving only the ruins
-    void HideReconstruction()
-    {
-        reconstructedVersion.SetActive(false);
-        UpdateUI(false);  // Set text to "Ruins Mode"
-    }
-
-    // Update the UI Text based on the mode (true = reconstructed, false = ruins)
     void UpdateUI(bool isReconstructed)
     {
+        if (modeText == null) return;
+
         if (isReconstructed)
         {
-            modeText.text = "Reconstructed Mode";  // Display this when the reconstructed version is active
+            modeText.text =
+                "TEMPLE RECONSTRUCTION:\n" +
+                "<color=#8FFF8F>ACTIVE</color>\n" +
+                "Press T to toggle";
         }
         else
         {
-            modeText.text = "Ruins Mode";  // Display this when showing only the ruins
+            modeText.text =
+                "TEMPLE RECONSTRUCTION:\n" +
+                "<color=#FF8F8F>HIDDEN</color>\n" +
+                "Press T to toggle";
         }
+    }
+
+    IEnumerator FlashPanel()
+    {
+        modePanel.alpha = 1f;
+        yield return new WaitForSeconds(2f);
+        modePanel.alpha = 0.6f;
     }
 }
