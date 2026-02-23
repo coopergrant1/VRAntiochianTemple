@@ -75488,72 +75488,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 67743712028534346, guid: 9421833834a42a04b9dc3818b35d0e3a, type: 3}
---- !u!1001 &1092785396
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1833471974}
-    m_Modifications:
-    - target: {fileID: 274935693499814010, guid: d016c564353b5234e8881b8dfa6a593e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -10.26
-      objectReference: {fileID: 0}
-    - target: {fileID: 274935693499814010, guid: d016c564353b5234e8881b8dfa6a593e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -365.82
-      objectReference: {fileID: 0}
-    - target: {fileID: 274935693499814010, guid: d016c564353b5234e8881b8dfa6a593e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 4.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 274935693499814010, guid: d016c564353b5234e8881b8dfa6a593e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.76548326
-      objectReference: {fileID: 0}
-    - target: {fileID: 274935693499814010, guid: d016c564353b5234e8881b8dfa6a593e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 274935693499814010, guid: d016c564353b5234e8881b8dfa6a593e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.64345586
-      objectReference: {fileID: 0}
-    - target: {fileID: 274935693499814010, guid: d016c564353b5234e8881b8dfa6a593e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 274935693499814010, guid: d016c564353b5234e8881b8dfa6a593e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 274935693499814010, guid: d016c564353b5234e8881b8dfa6a593e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -80.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 274935693499814010, guid: d016c564353b5234e8881b8dfa6a593e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 979107363424764910, guid: d016c564353b5234e8881b8dfa6a593e, type: 3}
-      propertyPath: m_Name
-      value: Antiochia_Point _Cloud 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 979107363424764910, guid: d016c564353b5234e8881b8dfa6a593e, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d016c564353b5234e8881b8dfa6a593e, type: 3}
---- !u!4 &1092785397 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 274935693499814010, guid: d016c564353b5234e8881b8dfa6a593e, type: 3}
-  m_PrefabInstance: {fileID: 1092785396}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1092893021 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7604199105516777929, guid: 9421833834a42a04b9dc3818b35d0e3a, type: 3}
@@ -105534,7 +105468,6 @@ Transform:
   - {fileID: 1207701989}
   - {fileID: 609362114}
   - {fileID: 641760655}
-  - {fileID: 1092785397}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1834099186
