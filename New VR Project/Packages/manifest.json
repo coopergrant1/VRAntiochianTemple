@@ -1,9 +1,9 @@
 {
   "dependencies": {
+    "com.unity.2d.sprite": "1.0.0",
     "com.unity.cloud.gltfast": "https://github.com/atteneder/glTFast.git#main",
     "com.unity.collab-proxy": "2.6.0",
     "com.unity.feature.development": "1.0.2",
-    "com.unity.industry.toolkit": "3.2.1",
     "com.unity.inputsystem": "1.11.2",
     "com.unity.learn.iet-framework": "4.0.3",
     "com.unity.multiplayer.center": "1.0.0",

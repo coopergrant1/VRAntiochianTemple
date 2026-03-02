@@ -9,13 +9,21 @@ public class BlockInfoRecon : MonoBehaviour
     public GameObject pdfWindow;       // PDF / info panel
 
     [Header("UI Text")]
-    public TextMeshProUGUI titleText;        // Assign in Inspector
-    public TextMeshProUGUI descriptionText;  // Assign in Inspector
+    public TextMeshProUGUI titleText;       // Assign titleText textMeshPro
+    public TextMeshProUGUI descriptionText; // Assign descripitionText textMeshPro
+    public TextMeshProUGUI placementText;   // Assign placementText textMeshPro
+    public UnityEngine.UI.Image displayDrawing1;    // Assign displayImage UI Image
+    public UnityEngine.UI.Image displayDrawing2;    // Assign displayImage UI Image
+
 
     [Header("Block Content")]
     public string blockTitle;
     [TextArea]
     public string blockDescription;
+    [TextArea]
+    public string blockPlacement;
+    public Sprite blockDrawing1;
+    public Sprite blockDrawing2;
 
     private bool isVisible = false;
 
@@ -28,7 +36,10 @@ public class BlockInfoRecon : MonoBehaviour
     // Called by XR Interaction Toolkit (hook this in Inspector)
     public void OnSelectEntered(SelectEnterEventArgs args)
     {
-        ShowPDF();
+        if (!isVisible)
+            HidePDF(); // Ensure only one PDF is visible at a time
+        else
+            ShowPDF();
     }
 
     public void ShowPDF()
@@ -45,6 +56,15 @@ public class BlockInfoRecon : MonoBehaviour
 
         if (descriptionText != null)
             descriptionText.text = blockDescription;
+
+        if (placementText != null)
+            placementText.text = blockPlacement;
+
+        if (displayDrawing1 != null)
+            displayDrawing1.sprite = blockDrawing1;
+
+        if (displayDrawing2 != null)
+            displayDrawing2.sprite = blockDrawing2;
     }
 
     public void HidePDF()
