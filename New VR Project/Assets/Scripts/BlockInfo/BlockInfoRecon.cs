@@ -34,12 +34,9 @@ public class BlockInfoRecon : MonoBehaviour
     }
 
     // Called by XR Interaction Toolkit (hook this in Inspector)
-    public void OnSelectEntered(SelectEnterEventArgs args)
+    public void OnActivateEntered(ActivateEventArgs args)
     {
-        if (!isVisible)
-            HidePDF(); // Ensure only one PDF is visible at a time
-        else
-            ShowPDF();
+        TogglePDF();
     }
 
     public void ShowPDF()
@@ -77,6 +74,6 @@ public class BlockInfoRecon : MonoBehaviour
 
     public void TogglePDF()
     {
-        BlockManager.Instance.SetActiveBlock(this);
+        BlockManagerNew.Instance.SetActiveBlock(this);
     }
 }
