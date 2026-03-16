@@ -13,8 +13,6 @@ public class BlockInfoRecon : MonoBehaviour
     public TextMeshProUGUI descriptionText; // Assign descripitionText textMeshPro
     public TextMeshProUGUI placementText;   // Assign placementText textMeshPro
     public UnityEngine.UI.Image displayDrawing1;    // Assign displayImage UI Image
-    public UnityEngine.UI.Image displayDrawing2;    // Assign displayImage UI Image
-
 
     [Header("Block Content")]
     public string blockTitle;
@@ -23,8 +21,6 @@ public class BlockInfoRecon : MonoBehaviour
     [TextArea]
     public string blockPlacement;
     public Sprite blockDrawing1;
-    public Sprite blockDrawing2;
-
     private bool isVisible = false;
 
     void Start()
@@ -60,8 +56,6 @@ public class BlockInfoRecon : MonoBehaviour
         if (displayDrawing1 != null)
             displayDrawing1.sprite = blockDrawing1;
 
-        if (displayDrawing2 != null)
-            displayDrawing2.sprite = blockDrawing2;
     }
 
     public void HidePDF()

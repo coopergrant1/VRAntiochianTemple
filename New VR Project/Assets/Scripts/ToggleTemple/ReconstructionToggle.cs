@@ -66,17 +66,11 @@ public class ReconstructionToggle : MonoBehaviour
     {
         if (isReconstructed)
         {
-            modeText.text =
-                "TEMPLE RECONSTRUCTION:\n" +
-                "<color=#8FFF8F>ACTIVE</color>\n" +
-                "Press T to toggle";
+            modeText.text = "Reconstructed Mode";  // Display this when the reconstructed version is active
         }
         else
         {
-            modeText.text =
-                "TEMPLE RECONSTRUCTION:\n" +
-                "<color=#FF8F8F>HIDDEN</color>\n" +
-                "Press T to toggle";
+            modeText.text = "Ruins Mode";  // Display this when showing only the ruins
         }
     }
 }

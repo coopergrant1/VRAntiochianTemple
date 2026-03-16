@@ -31,6 +31,14 @@ public class TabController : MonoBehaviour
         ShowPage(overviewTab, overviewPage);
     }
 
+    void AddVRClick(VisualElement element, System.Action callback)
+    {
+        // Use pointer events instead of Button.clicked
+        element.RegisterCallback<PointerDownEvent>(evt =>
+        {
+            callback?.Invoke();
+        });
+    }
     void ShowPage(Button selectedTab, VisualElement selectedPage)
     {
         // Toggle tab classes
