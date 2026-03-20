@@ -11560,7 +11560,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasGroup: {fileID: 1620359445}
-  delay: 5
+  delay: 2.5
   fadeTime: 2
 --- !u!225 &1620359445
 CanvasGroup:
