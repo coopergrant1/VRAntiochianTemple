@@ -87,13 +87,13 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "New action",
-                    "type": "Button",
-                    "id": "2fea55cb-b9e0-404b-85d2-44e9b5699c66",
-                    "expectedControlType": "",
+                    "name": "RespawnHold",
+                    "type": "Value",
+                    "id": "10bb426e-cf08-4dca-bc68-0bdb3e3b90e0",
+                    "expectedControlType": "Axis",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -484,12 +484,12 @@
                 },
                 {
                     "name": "",
-                    "id": "ee58c2c3-7f68-4de1-8e38-6a708a365a39",
-                    "path": "",
+                    "id": "c9b9641b-3a28-4dab-8826-a6bdc55ff91d",
+                    "path": "<XRController>{LeftHand}/{Trigger}",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "New action",
+                    "action": "RespawnHold",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
