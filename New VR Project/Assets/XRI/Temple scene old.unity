@@ -628,7 +628,15 @@ MonoBehaviour:
       m_Id: 18370764-a868-48ba-ba60-af49c05ad180
       m_Processors: 
       m_Interactions: 
-      m_SingletonActionBindings: []
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: 0a4bc17f-5cf1-445d-b797-7e6b14db4485
+        m_Path: <XRController>{LeftHand}/{Trigger}
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Respawn
+        m_Flags: 0
       m_Flags: 0
     m_Reference: {fileID: 0}
   respawnUI: {fileID: 1505889662}
