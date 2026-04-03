@@ -341,7 +341,6 @@ MonoBehaviour:
   descriptionText: {fileID: 6213780209972709613}
   placementText: {fileID: 8773322589981808993}
   displayDrawing1: {fileID: 2037472510}
-  displayDrawing2: {fileID: 0}
   blockTitle: 'AT085: Antae Base Left'
   blockDescription: This base bears the scotia-torus-scotia molding in three sides
     with bilateral symmetry and thus is identified as the anta base, meaning the
@@ -349,7 +348,6 @@ MonoBehaviour:
   blockPlacement: Anta base found in NW quadrant, and restored on the left side of
     the temple.
   blockDrawing1: {fileID: 21300000, guid: ac80935bcad77154ca237d5e97bdaab2, type: 3}
-  blockDrawing2: {fileID: 0}
 --- !u!114 &54572502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1091,7 +1089,6 @@ MonoBehaviour:
   descriptionText: {fileID: 6213780209972709613}
   placementText: {fileID: 8773322589981808993}
   displayDrawing1: {fileID: 2037472510}
-  displayDrawing2: {fileID: 0}
   blockTitle: 'AT051: Lintel'
   blockDescription: Left side of the door lintel of the entrance to the cella. It
     continues the three-fasciate door frame at the top, which is crowned by a lintel,
@@ -1099,7 +1096,6 @@ MonoBehaviour:
   blockPlacement: It was found in the northwest quadrant along with the other corner
     of the lintel.
   blockDrawing1: {fileID: 21300000, guid: 9dc0889830e241e46901571e6bee02b3, type: 3}
-  blockDrawing2: {fileID: 0}
 --- !u!114 &188980229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2016,7 +2012,6 @@ MonoBehaviour:
   descriptionText: {fileID: 6213780209972709613}
   placementText: {fileID: 8773322589981808993}
   displayDrawing1: {fileID: 2037472510}
-  displayDrawing2: {fileID: 0}
   blockTitle: AT175:Upper Column Drum
   blockDescription: 'Fragment of the top column drum of the shaft of the column.
     It is not known if the column consisted of 2 or 3 column drums. In either case,
@@ -2027,7 +2022,6 @@ MonoBehaviour:
   blockPlacement: This column drum was found to the southeast of the temple and is
     restored at the rightmost column.
   blockDrawing1: {fileID: 21300000, guid: 8aa612f73646c814caf1f2e5f355817e, type: 3}
-  blockDrawing2: {fileID: 0}
 --- !u!114 &269279641
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2692,12 +2686,10 @@ MonoBehaviour:
   descriptionText: {fileID: 6213780209972709613}
   placementText: {fileID: 8773322589981808993}
   displayDrawing1: {fileID: 2037472510}
-  displayDrawing2: {fileID: 0}
   blockTitle: 'AT202: Geison'
   blockDescription: 
   blockPlacement: 
   blockDrawing1: {fileID: 0}
-  blockDrawing2: {fileID: 0}
 --- !u!1 &347051803
 GameObject:
   m_ObjectHideFlags: 0
@@ -3025,12 +3017,10 @@ MonoBehaviour:
   descriptionText: {fileID: 6213780209972709613}
   placementText: {fileID: 8773322589981808993}
   displayDrawing1: {fileID: 2037472510}
-  displayDrawing2: {fileID: 0}
   blockTitle: 
   blockDescription: 
   blockPlacement: 
   blockDrawing1: {fileID: 0}
-  blockDrawing2: {fileID: 0}
 --- !u!1 &393088909 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8164078558771037576, guid: 7191d1e5ebc7087438e1fe2543826400, type: 3}
@@ -3076,12 +3066,10 @@ MonoBehaviour:
   descriptionText: {fileID: 6213780209972709613}
   placementText: {fileID: 8773322589981808993}
   displayDrawing1: {fileID: 2037472510}
-  displayDrawing2: {fileID: 0}
   blockTitle: 
   blockDescription: 
   blockPlacement: 
   blockDrawing1: {fileID: 0}
-  blockDrawing2: {fileID: 0}
 --- !u!1 &393831801
 GameObject:
   m_ObjectHideFlags: 0
@@ -3999,13 +3987,11 @@ MonoBehaviour:
   descriptionText: {fileID: 6213780209972709613}
   placementText: {fileID: 8773322589981808993}
   displayDrawing1: {fileID: 2037472510}
-  displayDrawing2: {fileID: 0}
   blockTitle: 'AT181: Door Jamb Right'
   blockDescription: Wall jamb of the door of the cella.  Bears a three-fasciae carving
     at the end, that would have run around the door as a door frame.
   blockPlacement: 
   blockDrawing1: {fileID: 0}
-  blockDrawing2: {fileID: 0}
 --- !u!1 &599936545
 GameObject:
   m_ObjectHideFlags: 0
@@ -4063,7 +4049,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 05a9cb24da01b7a4882dfe4b4da4c882, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 55f74ab5dc6c6b74c8f7a0254bf381dd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4126,7 +4112,6 @@ MonoBehaviour:
   descriptionText: {fileID: 6213780209972709613}
   placementText: {fileID: 8773322589981808993}
   displayDrawing1: {fileID: 2037472510}
-  displayDrawing2: {fileID: 0}
   blockTitle: 'AT159: Left Upper Antae Block'
   blockDescription: This block has bylateral symmetry, which identifies it as an
     anta block, at the buldging extension of the cella lateral wall,  and also bears
@@ -4134,7 +4119,6 @@ MonoBehaviour:
   blockPlacement: Anta base found in NW quadrant, and restored on the left side of
     the temple.
   blockDrawing1: {fileID: 21300000, guid: 85d5b84550c9e494a967daf77c5355dc, type: 3}
-  blockDrawing2: {fileID: 0}
 --- !u!114 &605369624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4298,6 +4282,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1833471974}
     m_Modifications:
+    - target: {fileID: -7635826562936255635, guid: 099ba89fd6e8add4ea2e58bf93f8b689, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 33ba3250de70ec049a7e27cacd702e53, type: 2}
     - target: {fileID: -8679921383154817045, guid: a020065aea8e10942b7a7ef1bb52fc38, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.24223
@@ -4350,10 +4338,6 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0b7fe850befa7234396fb37570535329, type: 2}
-    - target: {fileID: -7635826562936255635, guid: 099ba89fd6e8add4ea2e58bf93f8b689, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 33ba3250de70ec049a7e27cacd702e53, type: 2}
     - target: {fileID: -7635826562936255635, guid: 0bc9c5849cc413b42b965314ec77c784, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -6099,12 +6083,10 @@ MonoBehaviour:
   descriptionText: {fileID: 6213780209972709613}
   placementText: {fileID: 8773322589981808993}
   displayDrawing1: {fileID: 2037472510}
-  displayDrawing2: {fileID: 0}
   blockTitle: 
   blockDescription: 
   blockPlacement: 
   blockDrawing1: {fileID: 0}
-  blockDrawing2: {fileID: 0}
 --- !u!1 &858624619
 GameObject:
   m_ObjectHideFlags: 0
@@ -6779,7 +6761,6 @@ MonoBehaviour:
   descriptionText: {fileID: 6213780209972709613}
   placementText: {fileID: 8773322589981808993}
   displayDrawing1: {fileID: 2037472510}
-  displayDrawing2: {fileID: 0}
   blockTitle: 'AT203: Geison'
   blockDescription: This block is part of the horizontal geison block. It bears cuttings
     for the rafters of the roof on the upper surface at a spacing of 55 cm, lion-head
@@ -6791,7 +6772,6 @@ MonoBehaviour:
     the temple. It is restored as part of the horizontal geison course on the right
     flank of the temple, adjacent to AT204.
   blockDrawing1: {fileID: 0}
-  blockDrawing2: {fileID: 0}
 --- !u!114 &887912511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6990,12 +6970,10 @@ MonoBehaviour:
   descriptionText: {fileID: 6213780209972709613}
   placementText: {fileID: 8773322589981808993}
   displayDrawing1: {fileID: 2037472510}
-  displayDrawing2: {fileID: 0}
   blockTitle: 
   blockDescription: 
   blockPlacement: 
   blockDrawing1: {fileID: 0}
-  blockDrawing2: {fileID: 0}
 --- !u!1 &929566103
 GameObject:
   m_ObjectHideFlags: 0
@@ -7125,7 +7103,6 @@ MonoBehaviour:
   descriptionText: {fileID: 6213780209972709613}
   placementText: {fileID: 8773322589981808993}
   displayDrawing1: {fileID: 2037472510}
-  displayDrawing2: {fileID: 0}
   blockTitle: 'AT067: Column Base'
   blockDescription: This block has the typical design of the Attic Ionic column base
     with the scotia-torus-scotia sequence. It's role is to provide a decorative transition
@@ -7133,7 +7110,6 @@ MonoBehaviour:
   blockPlacement: 'This base was the one found farthest away from the left side of
     the temple, and thus it is restored as the leftmost column base. '
   blockDrawing1: {fileID: 0}
-  blockDrawing2: {fileID: 0}
 --- !u!114 &929566110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7717,7 +7693,6 @@ MonoBehaviour:
   descriptionText: {fileID: 6213780209972709613}
   placementText: {fileID: 8773322589981808993}
   displayDrawing1: {fileID: 2037472510}
-  displayDrawing2: {fileID: 0}
   blockTitle: 'AT 178: Front Pediment Tympanon (S)'
   blockDescription: "This is the central pediment tympanon block of the front fa\xE7ade.
     It bears sculptural decoration with a male bust in a wreath  in the center, held
@@ -7729,7 +7704,6 @@ MonoBehaviour:
   blockPlacement: "The pediment block was found at the southwest of the temple, and
     is restored at the front fa\xE7ade of the temple. "
   blockDrawing1: {fileID: 0}
-  blockDrawing2: {fileID: 0}
 --- !u!114 &960920288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7864,14 +7838,12 @@ MonoBehaviour:
   descriptionText: {fileID: 6213780209972709613}
   placementText: {fileID: 8773322589981808993}
   displayDrawing1: {fileID: 2037472510}
-  displayDrawing2: {fileID: 0}
   blockTitle: 'AT194: Pediment Geison'
   blockDescription: It was found to the southwest of the temple, and thus is restored
     at the right front corner of the temple.
   blockPlacement: It was found to the southwest of the temple, and thus is restored
     at the right front corner of the temple.
   blockDrawing1: {fileID: 21300000, guid: d61330c6979e2284b8820f2f5b0b7216, type: 3}
-  blockDrawing2: {fileID: 0}
 --- !u!114 &989740711
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8678,12 +8650,10 @@ MonoBehaviour:
   descriptionText: {fileID: 6213780209972709613}
   placementText: {fileID: 8773322589981808993}
   displayDrawing1: {fileID: 2037472510}
-  displayDrawing2: {fileID: 0}
   blockTitle: 
   blockDescription: 
   blockPlacement: 
   blockDrawing1: {fileID: 0}
-  blockDrawing2: {fileID: 0}
 --- !u!1 &1127079742
 GameObject:
   m_ObjectHideFlags: 0
@@ -9354,12 +9324,10 @@ MonoBehaviour:
   descriptionText: {fileID: 6213780209972709613}
   placementText: {fileID: 8773322589981808993}
   displayDrawing1: {fileID: 2037472510}
-  displayDrawing2: {fileID: 0}
   blockTitle: 
   blockDescription: 
   blockPlacement: 
   blockDrawing1: {fileID: 0}
-  blockDrawing2: {fileID: 0}
 --- !u!1 &1246093154
 GameObject:
   m_ObjectHideFlags: 0
@@ -9574,12 +9542,10 @@ MonoBehaviour:
   descriptionText: {fileID: 6213780209972709613}
   placementText: {fileID: 8773322589981808993}
   displayDrawing1: {fileID: 2037472510}
-  displayDrawing2: {fileID: 0}
   blockTitle: 
   blockDescription: 
   blockPlacement: 
   blockDrawing1: {fileID: 0}
-  blockDrawing2: {fileID: 0}
 --- !u!1001 &1255367904
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9995,7 +9961,6 @@ MonoBehaviour:
   descriptionText: {fileID: 6213780209972709613}
   placementText: {fileID: 8773322589981808993}
   displayDrawing1: {fileID: 2037472510}
-  displayDrawing2: {fileID: 0}
   blockTitle: AT258
   blockDescription: 'This corinthian capital has bilateral symmetry on the diagonal
     axis, and thus it needs to be restored as a corner block at the top of a pilaster.
@@ -10006,7 +9971,6 @@ MonoBehaviour:
   blockPlacement: It was found in the SE quadrant, close to the rear right corner
     of the building, and thus it is restored there.
   blockDrawing1: {fileID: 0}
-  blockDrawing2: {fileID: 0}
 --- !u!1001 &1335859591
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10820,12 +10784,10 @@ MonoBehaviour:
   descriptionText: {fileID: 6213780209972709613}
   placementText: {fileID: 8773322589981808993}
   displayDrawing1: {fileID: 2037472510}
-  displayDrawing2: {fileID: 0}
   blockTitle: 
   blockDescription: 
   blockPlacement: 
   blockDrawing1: {fileID: 0}
-  blockDrawing2: {fileID: 0}
 --- !u!1 &1496640830
 GameObject:
   m_ObjectHideFlags: 0
@@ -11210,7 +11172,6 @@ MonoBehaviour:
   descriptionText: {fileID: 6213780209972709613}
   placementText: {fileID: 8773322589981808993}
   displayDrawing1: {fileID: 2037472510}
-  displayDrawing2: {fileID: 0}
   blockTitle: AT422-115:Pilaster Base
   blockDescription: This base bears the scotia-torus-scotia molding with bilateral
     symmetry in the diagonal axis, and thus is identified as one of the two pilaster
@@ -11219,7 +11180,6 @@ MonoBehaviour:
     form a pilaster base. Found in the NE quadrant, it is restored at the left rear
     corner of the temple.
   blockDrawing1: {fileID: 0}
-  blockDrawing2: {fileID: 0}
 --- !u!114 &1569728904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11866,7 +11826,6 @@ MonoBehaviour:
   descriptionText: {fileID: 6213780209972709613}
   placementText: {fileID: 8773322589981808993}
   displayDrawing1: {fileID: 2037472510}
-  displayDrawing2: {fileID: 0}
   blockTitle: 'AT091: Lintel'
   blockDescription: 'Right side of the door lintel of the entrance to the cella.
     It continues the three-fasciate door frame at the top, which is crowned by a
@@ -11876,7 +11835,6 @@ MonoBehaviour:
   blockPlacement: It was found in the northwest quadrant along with the other corner
     of the lintel.
   blockDrawing1: {fileID: 21300000, guid: 9dc0889830e241e46901571e6bee02b3, type: 3}
-  blockDrawing2: {fileID: 0}
 --- !u!114 &1632967104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12090,7 +12048,6 @@ MonoBehaviour:
   descriptionText: {fileID: 6213780209972709613}
   placementText: {fileID: 8773322589981808993}
   displayDrawing1: {fileID: 2037472510}
-  displayDrawing2: {fileID: 0}
   blockTitle: 'AT160: Corinthian Antae Capital Left'
   blockDescription: Rectalinear corinthian capital with three faces with bilateral
     symmetry, which identifies it as the anta capital. The capital bears a dowel
@@ -12098,7 +12055,6 @@ MonoBehaviour:
   blockPlacement: 'Found in the northwest quadrant, it is identified as the capital
     for the left anta. '
   blockDrawing1: {fileID: 21300000, guid: 9625a195d1dfeb941a3ce4ddd34c9873, type: 3}
-  blockDrawing2: {fileID: 0}
 --- !u!114 &1642111289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12542,7 +12498,6 @@ MonoBehaviour:
   descriptionText: {fileID: 6213780209972709613}
   placementText: {fileID: 8773322589981808993}
   displayDrawing1: {fileID: 2037472510}
-  displayDrawing2: {fileID: 0}
   blockTitle: 'AT638: Podium Base Molding'
   blockDescription: Unfinished podium base molding. Its slanted side would be carved
     down at the final stages, to give a molding with an ovolo, cyma and tainia. The
@@ -12552,7 +12507,6 @@ MonoBehaviour:
   blockPlacement: Was found about 20 m. southwest of the temple, and it is restored
     at the right front corner of the podium.
   blockDrawing1: {fileID: 21300000, guid: 3361ab2bd3223c84fbafb92beec435bf, type: 3}
-  blockDrawing2: {fileID: 0}
 --- !u!114 &1723785374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13101,14 +13055,12 @@ MonoBehaviour:
   descriptionText: {fileID: 6213780209972709613}
   placementText: {fileID: 8773322589981808993}
   displayDrawing1: {fileID: 2037472510}
-  displayDrawing2: {fileID: 0}
   blockTitle: 'AT054: Door Jamb'
   blockDescription: Wall jamb of the door of the cella.  Bears a three-fasciae carving
     at the end, that would have run around the door as a door frame.
   blockPlacement: Found in the NW quadrant and thus belongs to the doorwall to the
     left of the entrance into the cella.
   blockDrawing1: {fileID: 21300000, guid: 9dc0889830e241e46901571e6bee02b3, type: 3}
-  blockDrawing2: {fileID: 0}
 --- !u!114 &1785931271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13564,12 +13516,10 @@ MonoBehaviour:
   descriptionText: {fileID: 6213780209972709613}
   placementText: {fileID: 8773322589981808993}
   displayDrawing1: {fileID: 2037472510}
-  displayDrawing2: {fileID: 0}
   blockTitle: 
   blockDescription: 
   blockPlacement: 
   blockDrawing1: {fileID: 0}
-  blockDrawing2: {fileID: 0}
 --- !u!1 &1860301877
 GameObject:
   m_ObjectHideFlags: 0
@@ -13750,7 +13700,6 @@ MonoBehaviour:
   descriptionText: {fileID: 6213780209972709613}
   placementText: {fileID: 8773322589981808993}
   displayDrawing1: {fileID: 2037472510}
-  displayDrawing2: {fileID: 0}
   blockTitle: 'AT173: Corinthian Column Capital '
   blockDescription: 'Block Description:
 
@@ -13761,7 +13710,6 @@ MonoBehaviour:
     most ornate order. '
   blockPlacement: Found in the SW quadrant.
   blockDrawing1: {fileID: 0}
-  blockDrawing2: {fileID: 0}
 --- !u!114 &1897805078
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14865,7 +14813,6 @@ MonoBehaviour:
   descriptionText: {fileID: 6213780209972709613}
   placementText: {fileID: 8773322589981808993}
   displayDrawing1: {fileID: 2037472510}
-  displayDrawing2: {fileID: 0}
   blockTitle: 'AT186: Corner Frieze Block'
   blockDescription: The frieze course succeeded the architrave, and was underneath
     the roof cornice (geison). Aesthetically, this course provided a surface for
@@ -14875,7 +14822,6 @@ MonoBehaviour:
   blockPlacement: "This is a corner frieze block, found to the southwest of the temple,
     and tbus is restored at the at the righthand corner of the temple front fa\xE7ade."
   blockDrawing1: {fileID: 21300000, guid: 7170c92e366a9e0468076602936e3123, type: 3}
-  blockDrawing2: {fileID: 0}
 --- !u!114 &2051557208
 MonoBehaviour:
   m_ObjectHideFlags: 0
