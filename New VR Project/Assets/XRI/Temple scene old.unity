@@ -3931,6 +3931,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: AntiochiaTempleLiDAR_trimmed
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 099ba89fd6e8add4ea2e58bf93f8b689, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8380,6 +8384,38 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 605369624}
   m_SourcePrefab: {fileID: 100100000, guid: 2b0beeb5d4e037546a3d37d72128f36d, type: 3}
+--- !u!1 &1069085757 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ed08389ec86702468a7fe803ff06c21, type: 3}
+  m_PrefabInstance: {fileID: 1328441624}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1069085758 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ed08389ec86702468a7fe803ff06c21, type: 3}
+  m_PrefabInstance: {fileID: 1328441624}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1069085759
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069085757}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3962341918116051969, guid: 5ed08389ec86702468a7fe803ff06c21, type: 3}
 --- !u!1 &1075804825
 GameObject:
   m_ObjectHideFlags: 0
@@ -10244,6 +10280,66 @@ MonoBehaviour:
   m_StartingHoverFilters: []
   m_StartingSelectFilters: []
   m_StartingInteractionStrengthFilters: []
+--- !u!1001 &1328441624
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1833471974}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 5ed08389ec86702468a7fe803ff06c21, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5ed08389ec86702468a7fe803ff06c21, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5ed08389ec86702468a7fe803ff06c21, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5ed08389ec86702468a7fe803ff06c21, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5ed08389ec86702468a7fe803ff06c21, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5ed08389ec86702468a7fe803ff06c21, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5ed08389ec86702468a7fe803ff06c21, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5ed08389ec86702468a7fe803ff06c21, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5ed08389ec86702468a7fe803ff06c21, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5ed08389ec86702468a7fe803ff06c21, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ed08389ec86702468a7fe803ff06c21, type: 3}
+      propertyPath: m_Name
+      value: Temple_+_Blockfield_(FBX)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ed08389ec86702468a7fe803ff06c21, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1069085759}
+  m_SourcePrefab: {fileID: 100100000, guid: 5ed08389ec86702468a7fe803ff06c21, type: 3}
 --- !u!1001 &1335859591
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13754,6 +13850,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1864562746}
+  - {fileID: 1069085758}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1838674400
