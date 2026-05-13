@@ -5,13 +5,29 @@ public class CanvasToggle : MonoBehaviour
 {
     public GameObject panelCanvas;
     public InputActionReference toggleAction;
-
     public InputActionReference switchTabAction;
 
     public GameObject description;
     public GameObject drawing;
 
-    private bool showDescription= true;
+    // Assign the duplicate object in the Inspector
+    public GameObject duplicateObject;
+
+    private bool showDescription = true;
+
+    private void Start()
+    {
+        // Disable the duplicate so only this script handles input
+        if (duplicateObject != null)
+        {
+            duplicateObject.SetActive(false);
+        }
+
+        // Ensure only one panel is visible
+        description.SetActive(showDescription);
+        drawing.SetActive(!showDescription);
+    }
+
     private void OnEnable()
     {
         toggleAction.action.performed += OnToggle;
@@ -43,4 +59,3 @@ public class CanvasToggle : MonoBehaviour
         drawing.SetActive(!showDescription);
     }
 }
-

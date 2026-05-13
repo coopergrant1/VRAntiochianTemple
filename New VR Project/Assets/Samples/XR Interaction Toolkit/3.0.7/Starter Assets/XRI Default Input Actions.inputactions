@@ -878,6 +878,15 @@
                     "initialStateCheck": false
                 },
                 {
+                    "name": "Info Toggle",
+                    "type": "Button",
+                    "id": "ed5e9cef-2f7b-486d-91a6-f46ca527e21a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
                     "name": "Grip Button",
                     "type": "Button",
                     "id": "5d9fef58-4d82-4895-ab27-55cec0abfd53",
@@ -1048,6 +1057,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c28bbc8c-4054-46f4-ad2d-468938975f98",
+                    "path": "<XRController>{LeftHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Info Toggle",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
